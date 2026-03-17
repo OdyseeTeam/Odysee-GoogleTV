@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#07070A"
+                android:centerColor="#111120"
+                android:endColor="#1A1830" />
+            <size
+                android:width="320dp"
+                android:height="180dp" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <item android:gravity="top|left">
+        <inset
+            android:left="-104dp"
+            android:top="-84dp">
+            <shape android:shape="oval">
+                <solid android:color="#227F5CFF" />
+                <size
+                    android:width="260dp"
+                    android:height="260dp" />
+            </shape>
+        </inset>
+    </item>
+
+    <item android:gravity="bottom|right">
+        <inset
+            android:right="-84dp"
+            android:bottom="-96dp">
+            <shape android:shape="oval">
+                <solid android:color="#1838BDF8" />
+                <size
+                    android:width="220dp"
+                    android:height="220dp" />
+            </shape>
+        </inset>
+    </item>
+
+    <item
+        android:left="68dp"
+        android:gravity="left|center_vertical">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="45"
+                android:startColor="#EF1970"
+                android:centerColor="#F77D35"
+                android:endColor="#FFD600" />
+            <size
+                android:width="48dp"
+                android:height="48dp" />
+        </shape>
+    </item>
+
+    <item
+        android:left="78dp"
+        android:gravity="left|center_vertical"
+        android:width="28dp"
+        android:height="28dp"
+        android:drawable="@drawable/launch_logo_symbol" />
+
+    <item
+        android:left="126dp"
+        android:gravity="left|center_vertical"
+        android:width="126dp"
+        android:height="52dp"
+        android:drawable="@drawable/odysee_wordmark_text" />
+</layer-list>
